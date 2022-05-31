@@ -1,0 +1,43 @@
+name: test_data_generator
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dartz: ^0.10.1
+  measure: ^0.1.0
+  uuid: ^3.0.6
+
+  flutter_riverpod: ^1.0.4
+  font_awesome_flutter: ^10.1.0
+  clipboard: ^0.1.3
+  change_case: ^1.0.2
+  date_format: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.1.0
+  build_runner: ^2.1.10
+  freezed: ^2.0.3+1
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/json/male_first_names.json
+    - assets/json/female_first_names.json
+    - assets/json/last_names.json
+    - assets/json/domain_names.json
+    - assets/json/us_cities.json
+    - assets/json/us_commonstreetdesignations.json
+    - assets/json/us_commonstreetnames.json
